@@ -18,6 +18,13 @@
   },
   "homepage": "https://github.com/sgws-davidson/git-hooks-nodejs#readme",
   "devDependencies": {
-    "jest": "^29.3.1"
+    "husky": "^4.3.8",
+    "jest": "^29.3.1",
+    "pre-commit": "^1.2.2"
   }
+  "pre-commit": [
+    "test"
+  ]
+  ]
+
 }
